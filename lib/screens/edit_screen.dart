@@ -150,7 +150,7 @@ class _EditScreenState extends State<EditScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Registration'),
+        title: Text('Edit Data'),
         automaticallyImplyLeading: false,
         actions: [
           InkWell(

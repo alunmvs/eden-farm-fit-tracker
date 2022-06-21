@@ -19,7 +19,7 @@ class _AddWeightScreenState extends State<AddWeightScreen>
   DateTime selectedBirthdate = DateTime.now();
   String? errorBirthday, errorWeight;
 
-  birthDate() async {
+  pickDate() async {
     DateTime? picked = await showDatePicker(
         context: context,
         initialDate: selectedBirthdate,
@@ -84,7 +84,7 @@ class _AddWeightScreenState extends State<AddWeightScreen>
             ),
             InkWell(
               onTap: () {
-                birthDate();
+                pickDate();
               },
               child: TextFormField(
                 controller: birthdayController,

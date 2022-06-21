@@ -1,7 +1,7 @@
 import 'package:another_flushbar/flushbar.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:eden_farm_tech_test_hartono/models/user_model.dart';
-import 'package:eden_farm_tech_test_hartono/screens/add_height_screen.dart';
+import 'package:eden_farm_tech_test_hartono/screens/add_weight_screen.dart';
 import 'package:eden_farm_tech_test_hartono/screens/edit_screen.dart';
 import 'package:eden_farm_tech_test_hartono/widgets/slide_transitions.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -39,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen>
     _controller.dispose();
   }
 
-  navigateToAddHeight() async {
+  navigateToAddWeight() async {
     Weight res = await Navigator.push(
         context, SlideToRightRoute(page: AddWeightScreen()));
 
@@ -65,7 +65,7 @@ class _HomeScreenState extends State<HomeScreen>
     }
   }
 
-  navigateToEditHeight(index, Weight data) async {
+  navigateToEditWeight(index, Weight data) async {
     Weight res = await Navigator.push(
         context, SlideToRightRoute(page: AddWeightScreen(data: data)));
 
@@ -383,7 +383,7 @@ class _HomeScreenState extends State<HomeScreen>
                                 ),
                                 InkWell(
                                   onTap: () {
-                                    navigateToAddHeight();
+                                    navigateToAddWeight();
                                   },
                                   child: Container(
                                     padding: EdgeInsets.all(2),
@@ -451,7 +451,7 @@ class _HomeScreenState extends State<HomeScreen>
                                                 children: [
                                                   InkWell(
                                                     onTap: () {
-                                                      navigateToEditHeight(
+                                                      navigateToEditWeight(
                                                           index,
                                                           weights[index]);
                                                     },
