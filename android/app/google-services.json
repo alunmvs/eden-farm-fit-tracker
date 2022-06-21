@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "41420884772",
+    "project_id": "eden-farm-tech-test",
+    "storage_bucket": "eden-farm-tech-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:41420884772:android:bf285ccf32811d2c8681b1",
+        "android_client_info": {
+          "package_name": "com.example.eden_farm_tech_test_hartono"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "41420884772-d1pru7in75kcpldbuc4h33skedu8tgtm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eden_farm_tech_test_hartono",
+            "certificate_hash": "171da890760ea91bf99a6dd65112cf2b6fa69346"
+          }
+        },
+        {
+          "client_id": "41420884772-c52cf1ai3qa9926cldi68glu1dfj39lg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYDoEd3LHq-6x_CQT9hZeyFVNpSyUrTJ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "41420884772-c52cf1ai3qa9926cldi68glu1dfj39lg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
